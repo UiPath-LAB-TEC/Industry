@@ -1,0 +1,3 @@
+[submodule "Banking"]
+	path = Banking
+	url = https://github.com/UiPath-LAB-TEC/Banking.git
