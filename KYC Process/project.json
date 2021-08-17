@@ -1,0 +1,59 @@
+{
+  "name": "KYC Process",
+  "description": "Refer to https://uipath.atlassian.net/wiki/spaces/RFI/pages/84566220693/KYC+Process+Demo for more information",
+  "main": "Read Form.xaml",
+  "dependencies": {
+    "LibCalculator": "[1.0.1]",
+    "UiPath.Excel.Activities": "[2.11.0-preview]",
+    "UiPath.FormActivityLibrary": "[1.1.8]",
+    "UiPath.IntelligentOCR.Activities": "[4.16.0-preview]",
+    "UiPath.OmniPage.Activities": "[1.7.0]",
+    "UiPath.Persistence.Activities": "[1.1.8]",
+    "UiPath.System.Activities": "[20.10.1]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.10.2.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": false,
+    "supportsPersistence": true,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Read Form.xaml",
+      "uniqueId": "1dde6b93-078f-4129-af45-f32062edd1e4",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}

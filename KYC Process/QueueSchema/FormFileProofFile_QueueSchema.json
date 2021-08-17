@@ -1,0 +1,52 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "KYC Schema",
+  "additionalProperties": { "type": "string" },
+  "required": [
+    "PictureFile_storage",
+    "FormFile_storage",
+	"ProofFile_storage"
+  ],
+  "properties": {
+	  "PictureFile_storage": {
+      "$id": "#/properties/PictureFile_storage",
+      "type": "string",
+      "title": "Picture File",
+      "default": "FileName",
+      "examples": [
+        "User Photo"
+      ]
+    },
+	"FormFile_storage": {
+      "$id": "#/properties/FormFile_storage",
+      "type": "string",
+      "title": "Form File",
+      "default": "FileName",
+      "examples": [
+        "Form File"
+      ]
+    },
+	"ProofFile_storage": {
+      "$id": "#/properties/ProofFile_storage",
+      "type": "string",
+      "title": "Proof File",
+      "default": "FileName",
+      "examples": [
+        "Proof File"
+      ]
+    },
+	"BucketName": {
+      "$id": "#/properties/BucketName",
+      "type": "string",
+      "title": "BucketName",
+      "default": "ActionsTest",
+      "examples": [
+        "User FileName"
+      ]
+    }
+	
+  }
+}
